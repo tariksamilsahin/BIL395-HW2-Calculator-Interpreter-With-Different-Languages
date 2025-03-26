@@ -42,6 +42,6 @@ expr → term ((+ | -) term)* term → factor ((* | /) factor)* factor → numbe
 
 ```bash
 git clone https://github.com/your-username/rust-calculator.git
-cd rust-calculator
+cd rust_calculator
 cargo run
 
